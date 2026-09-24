@@ -1,0 +1,15 @@
+Step 1: Conceptual clarity
+Prompt: "I am building an LRU Cache in JavaScript. I know I need O(1) time complexity for both get and put. Can you explain why a Map alone might not be enough and how a Doubly Linked List helps in this specific case?"
+
+Step 2: Implementation logic (Using Arena AI)
+Prompt: "I'm using Arena AI to compare different model suggestions because of its unlimited access. I want to implement the LRU Cache using a Doubly Linked List and a Map. Can you provide a boilerplate code for the Node class and the move-to-head logic?"
+
+Step 3: Adding Bonus Features (TTL)
+Prompt: "I have the basic LRU logic working. Now I want to add a 'Time-To-Live' (TTL) feature. Should I store the expiry timestamp inside each node? How should the get() method check for expiration before returning a value?"
+
+Step 4: Debugging & Edge Cases
+Prompt: "My current eviction logic works when the cache is full, but I want to make sure the dummy head and tail nodes are handled correctly to avoid null pointer errors. Can you review this logic?"
+
+Step 5: Complexity Analysis & Documentation
+Prompt: "I've completed the code. Can you help me verify if the time complexity is truly O(1) for both operations? Also, please write a professional README.md file in Markdown format that explains the data structures used, how the LRU ordering works, and the TTL logic."
+
